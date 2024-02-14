@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0 !important; /* Hide scrollbar for Chrome, Safari, and Edge */
+  }
+.container{
+    
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+section{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info>p{
+    padding: 1rem;
+}
+h1{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    
+    
+}
+.img{
+    height: 15rem;
+    width: 9.5rem;
+}
+
+.card{
+    
+    flex:0 0 calc(33% - 20px);
+    max-width:calc(80% - 20px);
+    display: flexbox;
+    background: fff;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px solid aqua;
+}
+.card>p{
+    margin-bottom:2rem;
+}
+.forflex{
+    padding: 0.75rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    gap: 10px;
+    display: flex;
+    
+    
+}
+.tempdiv>p{
+    padding-top: 0.5rem;
+}
+.proptitle{
+    text-align: center;
+}

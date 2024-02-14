@@ -1,0 +1,33 @@
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background: rgb(40,40,40);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: 300;
+    
+    font-size: small;
+}
+.contact{
+    margin-left: 50rem;
+    font-weight: 300;
+    font-size:medium;
+    margin-right: 4px;
+}
+@media (max-width: 768px) {
+    .footer {
+      width: 100%;
+    }
+    .contact {
+      margin-left: 2rem;
+      font-size: small;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact {
+      margin-left: 1rem;
+      font-size: x-small;
+    }
+  }
